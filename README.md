@@ -12,7 +12,7 @@ http://doi.org/10.5281/zenodo.1199620
 
 ## Instructions on how to use the model
 ### Prerequisites
-To load the model you will need Python 3.5 and 
+To load the model you will need Python 3.5 and the 
 [gensim](https://radimrehurek.com/gensim/) library.
 ### Loading the model
 
