@@ -11,6 +11,7 @@ which can be accessed at this link:
 http://doi.org/10.5281/zenodo.1199620
 
 ## Instructions on how to use the model
+### Prerequisites
 To load the model you will need Python 3.5 and 
 [gensim](https://radimrehurek.com/gensim/) library.
 ### Loading the model
@@ -40,13 +41,12 @@ print(word_vect.most_similar(positive=['python', 'eclipse'], negative=['java']))
 ```
 
 ## References
-The official [gensim](https://radimrehurek.com/gensim/) 
-docs provide further details and 
-comprehensive [documentation](https://radimrehurek.com/gensim/models/word2vec.html) 
-on how a word2vec model can be used for various NLP tasks. 
+* The official [gensim](https://radimrehurek.com/gensim/) 
+  docs provide further details and 
+  comprehensive [documentation](https://radimrehurek.com/gensim/models/word2vec.html) 
+  on how a word2vec model can be used for various NLP tasks. 
 
-If you want to use this model please cite
-```
-Efstathiou, V., Chatzilenas, C., Spinellis, D., 2018. "Word Embeddings for the Software Engineering Domain". In *Proceedings of the 15th International Conference on Mining Software Repositories.* ACM.
-```
+* If you want to use this model please cite
+ Efstathiou, V., Chatzilenas, C., Spinellis, D., 2018. "Word Embeddings for the Software Engineering Domain". In *Proceedings of the    15th International Conference on Mining Software Repositories.* ACM.
+
 
