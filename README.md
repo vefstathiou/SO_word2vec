@@ -39,9 +39,14 @@ Examples of analogy queries
 print(word_vect.most_similar(positive=['python', 'eclipse'], negative=['java']))
 ```
 
-## Reference
+## References
+The official [gensim](https://radimrehurek.com/gensim/) 
+docs provide further details and 
+comprehensive [documentation](https://radimrehurek.com/gensim/models/word2vec.html) 
+on how a word2vec model can be used for various NLP tasks. 
+
 If you want to use this model please cite
-
+```
 Efstathiou, V., Chatzilenas, C., Spinellis, D., 2018. "Word Embeddings for the Software Engineering Domain". In *Proceedings of the 15th International Conference on Mining Software Repositories.* ACM.
-
+```
 
